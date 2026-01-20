@@ -1,10 +1,156 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JavaScript Fundamentals</title>
+    <title>Tables</title>
+    <style>
+      .box {
+        height: 300px;
+        width: 300px;
+        border: 2px solid black;
+        background-color: red;
+        color: white;
+        text-align: center;
+        margin: 30px;
+      }
+      #container {
+        height: 300px;
+        width: 300px;
+        border: 2px solid black;
+        background-color: rgb(13, 197, 59);
+        color: white;
+        text-align: center;
+        margin: 30px;
+      }
+    </style>
   </head>
-  <body></body>
-  <script src="script.js"></script>
+  <body>
+    <table border="">
+      <tr>
+        <th>Sr. No</th>
+        <th colspan="2">Student Name</th>
+        <th>Father Name</th>
+        <th>Roll No</th>
+        <th>Class Name</th>
+        <th>Institute Name</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Jonas</td>
+        <td>Bob</td>
+        <td>1233</td>
+        <td rowspan="2">MERN STACK</td>
+        <td>Brains College</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Jonas</td>
+        <td>Bob</td>
+        <td>1233</td>
+        <td>MERN STACK</td>
+        <td>Brains College</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Jonas</td>
+        <td>Bob</td>
+        <td>1233</td>
+        <td>MERN STACK</td>
+        <td>Brains College</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Jonas</td>
+        <td>Bob</td>
+        <td>1233</td>
+        <td>MERN STACK</td>
+        <td>Brains College</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Jonas</td>
+        <td>Bob</td>
+        <td>1233</td>
+        <td>MERN STACK</td>
+        <td>Brains College</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Jonas</td>
+        <td>Bob</td>
+        <td>1233</td>
+        <td>MERN STACK</td>
+        <td>Brains College</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Jonas</td>
+        <td>Bob</td>
+        <td>1233</td>
+        <td>MERN STACK</td>
+        <td>Brains College</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Jonas</td>
+        <td>Bob</td>
+        <td>1233</td>
+        <td>MERN STACK</td>
+        <td>Brains College</td>
+      </tr>
+    </table>
+    <div class="box box1 box2">
+      <h2>This is Box</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum magnam
+        repudiandae voluptas ducimus repellat modi doloribus magni, inventore
+        nesciunt ut numquam vero molestias molestiae rerum accusamus. Inventore
+        molestias magnam maiores neque a illum officiis.
+      </p>
+    </div>
+    <div id="container">
+      <h2>This is Box2</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime facere
+        animi quibusdam reprehenderit voluptas totam itaque nam minus saepe quo
+        praesentium amet aliquid corrupti, incidunt iure accusamus laboriosam!
+        Eum eligendi fuga ad beatae molestias.
+      </p>
+    </div>
+    <form action="">
+      <label for="">FirstName:</label>
+      <input type="text" name="" id="" placeholder="Enter Your First Name" />
+      <label for="">LastName:</label>
+      <input type="text" placeholder="Enter Your Last Name" /><br /><br />
+      <label for="">Roll No:</label>
+      <input type="text" placeholder="Roll No" /><br /><br />
+      <label for="">Email:</label>
+      <input type="email" placeholder="Email" /><br /><br />
+      <label for="">Password:</label>
+      <input type="password" /><br /><br />
+      <h2>Select Your Gender:</h2>
+      <input type="radio" name="" id="" />
+      <label for="">Male</label>
+      <input type="radio" />
+      <label for="">Female</label>
+      <h2>Select Your Language</h2>
+      <input type="checkbox" />
+      <label for="">English</label>
+      <input type="checkbox" />
+      <label for="">Urdu</label>
+      <input type="checkbox" />
+      <label for="">Pashto</label>
+      <input type="date" />
+      <input type="datetime" />
+      <input type="number" />
+      <input type="file" />
+      <select name="" id="">
+        <option value="">Pakistan</option>
+        <option value="">India</option>
+        <option value="">France</option>
+        <option value="">Germany</option>
+      </select>
+    </form>
+  </body>
 </html>
